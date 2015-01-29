@@ -11,4 +11,14 @@
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
   </listener>
 
+  <servlet>
+    <servlet-name>starter</servlet-name>
+    <servlet-class>loanapproval.StarterServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>starter</servlet-name>
+    <url-pattern>/start</url-pattern>
+  </servlet-mapping>
+
 </web-app>
